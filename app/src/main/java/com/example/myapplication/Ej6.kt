@@ -2,7 +2,7 @@ package com.example.myapplication
 
 fun main() {
     println("Deme el numero n: ")
-    var numero: Int = readLine()!!.toInt()
+    val numero: Int = readLine()!!.toInt()
     for(i in 2..numero step 2){
         println(i)
     }
